@@ -10,7 +10,6 @@ toc-title: "Содержание"
 
 ## Bibliography
 bibliography: bib/cite.bib
-csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 
 ## Pdf output format
 toc: true # Table of contents
@@ -45,14 +44,12 @@ monofontoptions: Scale=MatchLowercase,Scale=0.94,FakeStretch=0.9
 mathfontoptions:
 ## Biblatex
 biblatex: true
-biblio-style: "gost-numeric"
 biblatexoptions:
   - parentracker=true
   - backend=biber
   - hyperref=auto
   - language=auto
   - autolang=other*
-  - citestyle=gost-numeric
 ## Pandoc-crossref LaTeX customization
 figureTitle: "Рис."
 tableTitle: "Таблица"
